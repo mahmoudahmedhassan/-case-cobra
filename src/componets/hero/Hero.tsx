@@ -19,7 +19,7 @@ import Stars from "../Stars";
 
 function Hero() {
   return (
-    <section className=" flex   flex-col  bg-slate-50 grainy-light">
+    <section className=" flex flex-col bg-slate-50 grainy-light">
       <div className="container pb-24 xs:pt-[6rem] md:pt-[13rem] flex xs:flex-col lg:flex-row justify-center items-center gap-6">
         <div className="xs:w-full lg:w-[70%] relative mb-24 ">
           <div className="absolute w-28 left-0 top-[-160px] hidden md:block ">
@@ -114,7 +114,7 @@ function Hero() {
               className="h-[170px] w-[100px] absolute left-[-21px] bottom-[-23px]"
             />
 
-            <Phone imgSrc={testimonials_1} dark={true} className="" />
+            <Phone imgSrc={testimonials_1.src} className='w-64'/>
           </div>
         </div>
       </div>
